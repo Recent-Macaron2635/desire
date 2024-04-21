@@ -4,9 +4,14 @@ import Footer from '../Footer/Footer';
 import s from './Layout.css';
 
 const Layout = props => (
-  <div className={s.container} >
+  <div className={s.container}>
     <Header title={props.title} link={props.link} />
-    <div className={s.content} {...props} />
+    <div className={s.content}>
+      <h1>Cloud Computing Assignment 2</h1>
+      <h2>Desire Mutenga</h2>
+      <h2>Munashe Maposa</h2>
+      <h2>Takudzwa Gomba</h2>
+    </div>
     <Footer />
   </div>
 );
